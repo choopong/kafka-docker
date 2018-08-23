@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  kafka:
+    image: choopong/kafka:1.1.x.1
+    ports:
+      - '9092:9092'
+    volumes:
+      - ./config/server.properties:/app/kafka/config/server.properties
+      - ./kafka-logs/:/tmp/kafka-logs/
