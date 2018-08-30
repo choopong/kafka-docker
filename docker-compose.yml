@@ -2,7 +2,7 @@ version: '2'
 
 services:
   kafka:
-    image: choopong/kafka:1.1.x.1
+    image: choopong/kafka:1.1.1.1
     ports:
       - '9092:9092'
     volumes:
